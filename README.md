@@ -60,7 +60,58 @@ Financial institutions handle thousands of loan applications daily. This project
 - Applicant & Co-applicant Income  
 - Loan Amount & Loan Term  
 - Credit History  
-- Property Area  
+- Property Area 
+
+
+3)) 💳 Credit Card Fraud Detection using Logistic Regression
+
+This project implements a machine learning model to detect **fraudulent credit card transactions** using logistic regression. The goal is to classify whether a given transaction is legitimate or fraudulent based on transaction features.
+
+---
+
+## 📌 Project Overview
+
+Credit card fraud is a major financial crime that requires effective detection methods. Using a real-world dataset, this project applies **logistic regression** to perform **binary classification**. The model handles highly imbalanced data and evaluates performance using accuracy and confusion matrix.
+
+---
+
+## 📁 Dataset
+
+- **File:** `creditcard.csv`
+- **Source:** [Kaggle - Credit Card Fraud Detection Dataset](https://www.kaggle.com/mlg-ulb/creditcardfraud)
+- **Description:** Contains transactions made by European cardholders in September 2013.
+- **Classes:**  
+  - `0` → Legitimate  
+  - `1` → Fraudulent  
+
+---
+
+## 🧠 Features
+
+- Anonymized input features (`V1` to `V28`)
+- `Time` and `Amount` are non-transformed features
+- `Class` is the binary target variable
+
+---
+
+## 🛠️ Tools and Technologies Used
+
+- Python
+- Pandas, NumPy for data manipulation
+- Scikit-learn for machine learning and evaluation
+- Matplotlib, Seaborn for visualization
+
+---
+
+## 🚀 Getting Started
+
+### 📦 Requirements
+
+Install the required libraries:
+
+```bash
+pip install pandas numpy matplotlib seaborn scikit-learn
+
 
 ---
 
